@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="867.0" prefWidth="1159.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane layoutX="14.0" layoutY="135.0" prefHeight="867.0" prefWidth="1159.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <BorderPane layoutY="7.0" prefHeight="867.0" prefWidth="1159.0" AnchorPane.bottomAnchor="-7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="7.0">
+                     <top>
+                        <AnchorPane prefHeight="48.0" prefWidth="1159.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <AnchorPane layoutX="73.0" layoutY="-76.0" prefHeight="35.0" prefWidth="1159.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Button layoutX="1113.0" layoutY="3.0" mnemonicParsing="false">
+                                       <graphic>
+                                          <FontAwesomeIcon glyphName="CLOSE" />
+                                       </graphic>
+                                    </Button>
+                                    <Button layoutX="1073.0" layoutY="3.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="32.0">
+                                       <graphic>
+                                          <FontAwesomeIcon glyphName="MINUS" />
+                                       </graphic>
+                                    </Button>
+                                    <FontAwesomeIcon glyphName="BUILDING" layoutX="22.0" layoutY="19.0" size="1.5em" />
+                                    <Label layoutX="61.0" layoutY="1.0" text="Eco Resort System">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </top>
+                     <left>
+                        <AnchorPane prefHeight="819.0" prefWidth="265.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <FontAwesomeIcon glyphName="USER" layoutX="79.0" layoutY="141.0" size="9em" />
+                              <FontAwesomeIcon glyphName="SIGN_OUT" layoutX="31.0" layoutY="792.0" size="2em" />
+                              <Label layoutX="79.0" layoutY="161.0" text="Welcome">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="122.0" layoutX="129.0" layoutY="215.0" startX="-107.0" />
+                              <Button layoutX="32.0" layoutY="258.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="211.0" text="Check In" />
+                              <Button layoutX="31.0" layoutY="297.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="211.0" text="Guest Request Handel" />
+                              <Button layoutX="32.0" layoutY="336.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="211.0" text="Sustainability Advocacy" />
+                              <Button layoutX="31.0" layoutY="375.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="211.0" text="Guest Reservations Handel" />
+                              <Button layoutX="31.0" layoutY="414.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="211.0" text="Concierge Services" />
+                              <Button layoutX="32.0" layoutY="453.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="211.0" text="Emergency Response" />
+                              <Button layoutX="33.0" layoutY="492.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="211.0" text="Eco-Friendly Practices" />
+                              <Button layoutX="32.0" layoutY="531.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="211.0" text="Check Out" />
+                              <Label layoutX="89.0" layoutY="766.0" text="Sign Out">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </left>
+                     <center>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <AnchorPane layoutX="14.0" layoutY="27.0" prefHeight="751.0" prefWidth="271.0">
+                                 <children>
+                                    <Label layoutX="30.0" layoutY="86.0" text="Name" />
+                                    <TextField layoutX="84.0" layoutY="81.0" prefHeight="31.0" prefWidth="158.0" />
+                                    <Label layoutX="30.0" layoutY="125.0" text="Id" />
+                                    <TextField layoutX="84.0" layoutY="120.0" prefHeight="31.0" prefWidth="158.0" />
+                                    <Label layoutX="21.0" layoutY="163.0" text="Room " />
+                                    <TextField layoutX="84.0" layoutY="158.0" prefHeight="31.0" prefWidth="158.0" />
+                                    <DatePicker layoutX="84.0" layoutY="200.0" prefHeight="31.0" prefWidth="175.0" />
+                                    <Label layoutX="21.0" layoutY="205.0" text="Date " />
+                                    <Button layoutX="84.0" layoutY="305.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="134.0" text="Book Room" />
+                                    <Button layoutX="84.0" layoutY="434.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="134.0" text="Reserve Room" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="356.0" layoutY="34.0" prefHeight="719.0" prefWidth="524.0">
+                                 <children>
+                                    <TableView layoutX="28.0" layoutY="32.0" prefHeight="636.0" prefWidth="448.0">
+                                      <columns>
+                                        <TableColumn prefWidth="224.0" text="Room Avilable" />
+                                        <TableColumn prefWidth="200.0" text="Reserve Room" />
+                                      </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </center>
+                  </BorderPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
